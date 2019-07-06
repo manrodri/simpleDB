@@ -5,7 +5,7 @@ var express     = require("express"),
     Campground  = require("./models/campground"),
     Comment     = require("./models/comment"),
     seedDB      = require("./seeds"),
-    port = 8080
+    port = 3000
     
 mongoose.connect("mongodb://localhost/yelp_camp_2", { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({extended: true}));
