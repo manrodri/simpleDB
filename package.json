@@ -4,7 +4,7 @@
   "description": "YelpCamp v1",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Manuel",
   "license": "ISC",
@@ -13,6 +13,9 @@
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "mongoose": "^4.1.12"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
-
