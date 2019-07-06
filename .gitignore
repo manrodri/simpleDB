@@ -1,0 +1,13 @@
+yelpCamp/.gradle
+data
+.gradle
+yelpCamp/dist
+yelpCamp/smokeTest/*.pyc
+yelpCamp/smokeTest/__*
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*

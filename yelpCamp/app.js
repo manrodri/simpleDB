@@ -7,7 +7,7 @@ var express     = require("express"),
     seedDB      = require("./seeds"),
     port = 3000
     
-mongoose.connect("mongodb://localhost/yelp_camp_2", { useNewUrlParser: true });
+mongoose.connect("mongodb://mongo/yelp_camp_2", { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
