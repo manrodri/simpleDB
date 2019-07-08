@@ -33,9 +33,9 @@ describe('add without setup/teardown', function() {
     
   })
   
-  it('should be ten when adding 5 to 5', function() {
-    num = add(num, 5);
-    num.should.equal(10);
+  it('should be eleven when adding 6 to 5', function() {
+    num = add(num, 6);
+    num.should.equal(11);
   });
   
   it('should be twleve when adding 7 to 5', function() {
